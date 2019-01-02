@@ -8,6 +8,7 @@ Contents:
 * [Server software](#server-software)
 * [Server operation](#server-operation)
 * [API](#api)
+* [Testing](#testing)
 
 
 ## Infrastructure as Code
