@@ -1,0 +1,164 @@
+# Front-end
+
+CSS
+SEO
+Accessibility
+HTML
+DOM
+XHR
+ES6+
+
+Package Managers
+npm, yarn
+
+{color:yellow}npm{color} improved a lot, post v5+, but is still behind yarn
+in some features; nothing serious though. Pick any!
+CSS pre-processors:
+
+* SASS
+* Less
+
+CSS frameworks:
+
+* Bootstrap
+* Materialize CSS
+* Bulma
+* Semantic UI
+
+CSS Architecture:
+
+* BEM
+* SMACSS
+* OOCSS
+
+CSS topics:
+
+* Grid
+* Flexbox
+* Media queries
+
+PostCSS
+
+Build tools:
+
+* npm
+* gulp
+* Webpack
+* Rollup
+
+Task runners:
+
+Module Bundlers
+Parcel
+
+Linters and Formatters
+Webpack
+Rollup
+Parcel
+JSCS
+JSLint
+JSHint
+ESLint
+Prettier
+Pick a Framework
+React.js
+Redux
+MobX
+These are not specific
+to React though, you 
+can use them in any 
+framework or app
+Vue.js
+Angular
+RxJS
+ngrx
+Vuex
+
+
+Testing:
+
+
+Hosting, Event Bubbling, Scope
+Prototype, Shadow DOM, strict,
+Understand the concepts
+Progressive Web Apps
+Type Checkers
+Server Side Rendering
+
+* React
+* Vue
+* Angular
+
+Universal
+Next.js
+After.js
+Vue.js
+Nuxt.js
+
+Static site generators:
+
+* GatsbyJS
+
+Desktop applications:
+
+* Electron
+
+Mobile applications:
+
+* React Native
+* Web Assembly
+
+Proton Native
+Carlo
+NativeScript
+
+CSS in JS
+Styled Components
+Emotion
+CSS Modules
+Radium
+Glamorous
+how browsers work, DNS, HTTP
+TypeScript
+Flow
+Service Workers
+Storage
+Location
+Notifications
+Device Orientation
+Payments
+Credentials
+Web Sockets
+Learn different Web
+APIs used in PWAs
+
+
+* Mocha
+* Chai
+* Ava
+* Karma
+* Jasmine
+* Protractor
+* Cypress
+* Jest
+* Enzyme
+
+
+PRPL Pattern
+RAIL Model
+Performance Metrics
+Using Light House
+Using DevTools
+Calculating, Measuring
+and improving performance
+
+Testing types:
+
+* Unit testing
+* Functional testing
+* Integration testing
+* Screenshot testing
+* System testing - white box
+* System testing - black box
+
+
