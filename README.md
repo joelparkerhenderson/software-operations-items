@@ -4,7 +4,10 @@ This page is based on the excellent work [here](https://github.com/kamranahmedse
 
 Contents:
 
-* [](#)
+* [Infrastructure as Code](#infrastructure-as-code)
+* [Server software](#server-software)
+* [Server operation](#server-operation)
+* [API](#api)
 
 
 ## Infrastructure as Code
