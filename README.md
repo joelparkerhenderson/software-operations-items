@@ -31,14 +31,6 @@ Orchestrate:
 * Swarm
 * Nomad
 
-Continuous integration:
-
-* Jenkins
-* Travis
-* Circle
-* Teamcity
-* Drone
-
 Containers:
 
 * Docker
@@ -231,13 +223,20 @@ Architecture:
 * REST/RESTful
 * GraphQL
 * RPC
+* Web sockets
 
 Communication:
 
 * Google Protobuf
 * Google FlatBuffers
 * Apache Thrift
-* Formats e.g JSON, XML, CSV, TSV
+
+Formats:
+
+* JSON
+* XML
+* CSV
+* TSV
 
 Authentication and authorization areas:
 
@@ -259,3 +258,37 @@ Authentication as a service:
 * Auth0
 * Google
 * Facebook
+
+
+## Testing
+
+Test types:
+
+* Unit testing
+* Functional testing
+* Integration testing
+* Screenshot testing
+* System testing - white box
+* System testing - black box
+
+Test frameworks:
+
+* Selenium
+* Cypress
+* TestCafe
+* Mocha
+* Chai
+* Ava
+* Karma
+* Jasmine
+* Protractor
+* Jest
+* Enzyme
+
+Continuous integration:
+
+* Jenkins
+* Travis
+* Circle
+* Teamcity
+* Drone
