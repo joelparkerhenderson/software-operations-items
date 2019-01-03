@@ -1,4 +1,4 @@
-# Software operations outline
+# Software operations items
 
 This page is based on the excellent work [here](https://github.com/kamranahmedse/developer-roadmap). Work in progress. Feedback welcome.
 
