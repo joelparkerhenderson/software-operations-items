@@ -238,6 +238,7 @@ Communication:
 * [Cap'n Proto](https://capnproto.org/)
 * [Protocol Buffers by Google](https://en.wikipedia.org/wiki/Protocol_Buffers)
 * [FlatBuffers by Google](https://en.wikipedia.org/wiki/FlatBuffers)
+* [eProsima Fast Buffers](https://www.eprosima.com)
 * [Apache Thrift](https://en.wikipedia.org/wiki/Apache_Thrift)
 * [Apache Avro](https://en.wikipedia.org/wiki/Apache_Avro)
 
