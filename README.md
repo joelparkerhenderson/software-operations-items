@@ -235,6 +235,7 @@ Architecture:
 
 Communication:
 
+* [Cap'n Proto](https://capnproto.org/)
 * [Protocol Buffers by Google](https://en.wikipedia.org/wiki/Protocol_Buffers)
 * [FlatBuffers by Google](https://en.wikipedia.org/wiki/FlatBuffers)
 * [Apache Thrift](https://en.wikipedia.org/wiki/Apache_Thrift)
@@ -298,6 +299,7 @@ Test frameworks:
 * [Protractor](https://www.protractortest.org/)
 * [Jest](https://jestjs.io/)
 * [Enzyme](https://github.com/airbnb/enzyme)
+* [american fuzzy lop](http://lcamtuf.coredump.cx/afl/)
 
 Continuous integration and continuous delivery:
 
