@@ -4,14 +4,117 @@ This page is based on the excellent work [here](https://github.com/kamranahmedse
 
 Contents:
 
-* [Infrastructure as Code](#infrastructure-as-code)
-* [Server software](#server-software)
-* [Server operation](#server-operation)
-* [API](#api)
-* [Testing](#testing)
+* [Development](#development)
+  * [API](#api)
+  * [Auth](#auth)
+  * [Testing](#testing)
+  * [CI+CD](#ci-cd)
+* [Operations](#operations)
+  * [Infrastructure as Code](#infrastructure-as-code)
+  * [Server software](#server-software)
+  * [Server operation](#server-operation)
 
 
-## Infrastructure as Code
+## Development
+
+
+### API
+
+Architecture:
+
+* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
+* [GraphQL](https://en.wikipedia.org/wiki/GraphQL)
+* [Remote procedure call (RPC)](https://en.wikipedia.org/wiki/Remote_procedure_call)
+* [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
+
+Communication:
+
+* [Cap'n Proto](https://capnproto.org/)
+* [Protocol Buffers by Google](https://en.wikipedia.org/wiki/Protocol_Buffers)
+* [FlatBuffers by Google](https://en.wikipedia.org/wiki/FlatBuffers)
+* [eProsima Fast Buffers](https://www.eprosima.com)
+* [Apache Thrift](https://en.wikipedia.org/wiki/Apache_Thrift)
+* [Apache Avro](https://en.wikipedia.org/wiki/Apache_Avro)
+
+Formats:
+
+* [JSON](https://en.wikipedia.org/wiki/JSON)
+* [XML](https://en.wikipedia.org/wiki/XML)
+* [Comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values)
+* [Tab-separated values (TSV)](https://en.wikipedia.org/wiki/Tab-separated_values)
+
+
+### Auth
+
+Authentication and authorization areas:
+
+* [OAuth](https://en.wikipedia.org/wiki/OAuth)
+* [Basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)
+* Token authentication
+* [Multi-factor authentication (MFA)](https://en.wikipedia.org/wiki/Multi-factor_authentication)
+* [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token)
+* [OpenID Connect](https://en.wikipedia.org/wiki/OpenID_Connect)
+* [Lightweight Directory Access Protocol (LDAP)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
+* [Active Directory (AD)](https://en.wikipedia.org/wiki/Active_Directory)
+* [Security Assertion Markup Language (SAML)](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)
+* [Single sign on (SSO)](https://en.wikipedia.org/wiki/Single_sign-on)
+* [Federated identity](https://en.wikipedia.org/wiki/Federated_identity)
+
+Authentication as a service:
+
+* [Okta](https://www.okta.com/)
+* [Auth0](https://auth0.com/)
+* [Google Sign-In](https://developers.google.com/identity/sign-in/web/sign-in)
+* [Facebook Login](https://developers.facebook.com/docs/facebook-login/)
+
+
+### Testing
+
+Test types:
+
+* [Unit testing](https://en.wikipedia.org/wiki/Unit_testing)
+* [Functional testing](https://en.wikipedia.org/wiki/Functional_testing)
+* [Integration testing](https://en.wikipedia.org/wiki/Integration_testing)
+* [System testing](https://en.wikipedia.org/wiki/System_testing)
+* [Load testing](https://en.wikipedia.org/wiki/Load_testing)
+* [Fuzz testing](https://en.wikipedia.org/wiki/Fuzz_testing)
+* [Penetration testing](https://en.wikipedia.org/wiki/Penetration_test)
+* [Regression testing](https://en.wikipedia.org/wiki/Regression_testing)
+* [Operational acceptance testing](https://en.wikipedia.org/wiki/Operational_acceptance_testing)
+* [Destructive testing](https://en.wikipedia.org/wiki/Destructive_testing)
+* [Security testing](https://en.wikipedia.org/wiki/Security_testing)
+
+Test frameworks:
+
+* [Selenium](https://www.seleniumhq.org/)
+* [Cypress](https://www.cypress.io/)
+* [TestCafe](https://testcafe.devexpress.com/)
+* [Mocha](https://mochajs.org/)
+* [Chai](https://www.chaijs.com/)
+* [Ava](https://github.com/avajs/ava)
+* [Karma](https://karma-runner.github.io/)
+* [Jasmine](https://jasmine.github.io/)
+* [Protractor](https://www.protractortest.org/)
+* [Jest](https://jestjs.io/)
+* [Enzyme](https://github.com/airbnb/enzyme)
+* [american fuzzy lop](http://lcamtuf.coredump.cx/afl/)
+
+
+### CI+CD
+
+Continuous integration and continuous deployment:
+
+* [Jenkins](https://jenkins.io/)
+* [Travis CI](https://travis-ci.org/)
+* [CircleCI](https://circleci.com/)
+* [Teamcity](https://www.jetbrains.com/teamcity/)
+* [Drone](https://github.com/drone/drone)
+
+
+## Operations
+
+
+### Infrastructure as Code
 
 Provision:
 
@@ -52,7 +155,8 @@ Platform as a service:
 * [Pivotal Cloud Foundry (PCF)](https://pivotal.io/platform)
 * [SAP Cloud Platform](https://cloudplatform.sap.com/)
 
-## Server software
+
+### Server software
 
 Server software types:
 
@@ -180,7 +284,7 @@ Firewall:
 * TODO
 
 
-## Server operation
+### Server operation
 
 Admnistration areas:
 
@@ -224,88 +328,3 @@ Networking:
 * [NAT](https://en.wikipedia.org/wiki/Network_address_translation)
 
 
-## API
-
-Architecture:
-
-* [REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
-* [GraphQL](https://en.wikipedia.org/wiki/GraphQL)
-* [Remote procedure call (RPC)](https://en.wikipedia.org/wiki/Remote_procedure_call)
-* [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
-
-Communication:
-
-* [Cap'n Proto](https://capnproto.org/)
-* [Protocol Buffers by Google](https://en.wikipedia.org/wiki/Protocol_Buffers)
-* [FlatBuffers by Google](https://en.wikipedia.org/wiki/FlatBuffers)
-* [eProsima Fast Buffers](https://www.eprosima.com)
-* [Apache Thrift](https://en.wikipedia.org/wiki/Apache_Thrift)
-* [Apache Avro](https://en.wikipedia.org/wiki/Apache_Avro)
-
-Formats:
-
-* [JSON](https://en.wikipedia.org/wiki/JSON)
-* [XML](https://en.wikipedia.org/wiki/XML)
-* [Comma-separated values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values)
-* [Tab-separated values (TSV)](https://en.wikipedia.org/wiki/Tab-separated_values)
-
-Authentication and authorization areas:
-
-* [OAuth](https://en.wikipedia.org/wiki/OAuth)
-* [Basic access authentication](https://en.wikipedia.org/wiki/Basic_access_authentication)
-* Token authentication
-* [Multi-factor authentication (MFA)](https://en.wikipedia.org/wiki/Multi-factor_authentication)
-* [JSON Web Token (JWT)](https://en.wikipedia.org/wiki/JSON_Web_Token)
-* [OpenID Connect](https://en.wikipedia.org/wiki/OpenID_Connect)
-* [Lightweight Directory Access Protocol (LDAP)](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
-* [Active Directory (AD)](https://en.wikipedia.org/wiki/Active_Directory)
-* [Security Assertion Markup Language (SAML)](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)
-* [Single sign on (SSO)](https://en.wikipedia.org/wiki/Single_sign-on)
-* [Federated identity](https://en.wikipedia.org/wiki/Federated_identity)
-
-Authentication as a service:
-
-* [Okta](https://www.okta.com/)
-* [Auth0](https://auth0.com/)
-* [Google Sign-In](https://developers.google.com/identity/sign-in/web/sign-in)
-* [Facebook Login](https://developers.facebook.com/docs/facebook-login/)
-
-
-## Testing
-
-Test types:
-
-* [Unit testing](https://en.wikipedia.org/wiki/Unit_testing)
-* [Functional testing](https://en.wikipedia.org/wiki/Functional_testing)
-* [Integration testing](https://en.wikipedia.org/wiki/Integration_testing)
-* [System testing](https://en.wikipedia.org/wiki/System_testing)
-* [Load testing](https://en.wikipedia.org/wiki/Load_testing)
-* [Fuzz testing](https://en.wikipedia.org/wiki/Fuzz_testing)
-* [Penetration testing](https://en.wikipedia.org/wiki/Penetration_test)
-* [Regression testing](https://en.wikipedia.org/wiki/Regression_testing)
-* [Operational acceptance testing](https://en.wikipedia.org/wiki/Operational_acceptance_testing)
-* [Destructive testing](https://en.wikipedia.org/wiki/Destructive_testing)
-* [Security testing](https://en.wikipedia.org/wiki/Security_testing)
-
-Test frameworks:
-
-* [Selenium](https://www.seleniumhq.org/)
-* [Cypress](https://www.cypress.io/)
-* [TestCafe](https://testcafe.devexpress.com/)
-* [Mocha](https://mochajs.org/)
-* [Chai](https://www.chaijs.com/)
-* [Ava](https://github.com/avajs/ava)
-* [Karma](https://karma-runner.github.io/)
-* [Jasmine](https://jasmine.github.io/)
-* [Protractor](https://www.protractortest.org/)
-* [Jest](https://jestjs.io/)
-* [Enzyme](https://github.com/airbnb/enzyme)
-* [american fuzzy lop](http://lcamtuf.coredump.cx/afl/)
-
-Continuous integration and continuous delivery:
-
-* [Jenkins](https://jenkins.io/)
-* [Travis CI](https://travis-ci.org/)
-* [CircleCI](https://circleci.com/)
-* [Teamcity](https://www.jetbrains.com/teamcity/)
-* [Drone](https://github.com/drone/drone)
