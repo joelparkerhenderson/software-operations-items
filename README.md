@@ -302,6 +302,7 @@ Infrastructure monitoring:
 * [Nagios](https://www.nagios.org/)
 * [Icinga](https://icinga.com/)
 * [Zabbix](https://www.zabbix.com/)
+* [Graphite](https://graphiteapp.org/)
 
 Application monitoring:
 
